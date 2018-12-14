@@ -437,6 +437,9 @@
 
 	<script>
     var d = new Date("24/Dec/2018");
+    var dateString = "2018-12-24 00:00:00";
+
+    var d = new Date(dateString.replace(' ', 'T'));
 
     // default example
     simplyCountdown('.simply-countdown-one', {
